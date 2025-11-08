@@ -1,0 +1,25 @@
+{
+  "name": "cloudbeds-to-xubio",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "vercel dev",
+    "deploy": "vercel --prod",
+    "lint": "eslint . --ext .js",
+    "test": "node --test",
+    "migrate": "bash scripts/migrate.sh"
+  },
+  "dependencies": {
+    "node-fetch": "^3.4.1",
+    "pg": "^8.11.0",
+    "@supabase/supabase-js": "^2.0.0",
+    "p-retry": "^5.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
