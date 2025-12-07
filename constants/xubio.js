@@ -35,31 +35,16 @@ export const provinciaTierraDelFuego = {
 export const bancoTierraDelFuego = { banco_id: 21, codigo: 'TDF', nombre: 'Banco de Tierra del Fuego' }
 
 export const listaDePrecioGenerica = {
-  "listaPrecioID": 0,
-  "activo": true,
-  "nombre": "Lista de Precio Generica",
-  "descripcion": "Lista de Precio Generica",
-  "esDefault": true,
-  "moneda": monedaPesosArgentinos,
-  "tipo": 0,
-  "iva": 0,
-  "listaReferencia": null,
-  "listaPrecioItem": [
-    // {
-    //   "listaPrecioID": 0,
-    //   "producto": {
-    //     "ID": 0,
-    //     "nombre": "Producto al 21%",
-    //     "codigo": "string",
-    //     "id": 0
-    //   },
-    //   "precio": 0,
-    //   "codigo": "string",
-    //   "referencia": 0
-    // }
-  ],
-  "ocultarSinPrecio": true
-}
+    listaPrecioID: 17794,
+    activo: true,
+    nombre: "Lista de precio",
+    descripcion: "Alquiler habitaciones",
+    esDefault: true,
+    moneda: monedaPesosArgentinos,
+    tipo: 1,
+    iva: 0,
+    ocultarSinPrecio: true
+  }
 
 export const centroDeCostoGenerico = {
   "ID": 0,
@@ -70,8 +55,14 @@ export const centroDeCostoGenerico = {
 
 export const vendedorGenerico = {
   vendedorId: 1,
-  nombre: "Vendedor",
+  nombre: "hernan",
   apellido: "Virtual",
   esVendedor: 1,
   activo: 1
+}
+
+export const unidadMedida = {
+    codigo: "07",
+    nombre: "Unidad (U)",
+    ID: 1
 }
