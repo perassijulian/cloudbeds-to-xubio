@@ -47,17 +47,15 @@ export const listaDePrecioGenerica = {
   }
 
 export const centroDeCostoGenerico = {
-  "ID": 0,
-  "nombre": "Centro de Costo Generico",
-  "codigo": "CENTRO_DE_COSTO_GENERICO",
-  "id": 0
-}
+    centroDeCosto_id: 65423,
+    codigo: "CALAFATES",
+    nombre: "Calafates"
+  }
 
 export const vendedorGenerico = {
-  vendedorId: 1,
-  nombre: "hernan",
-  apellido: "Virtual",
-  esVendedor: 1,
+  vendedorId: 12408,
+  // nombre: "Calafates",
+  // apellido: "Virtual",
   activo: 1
 }
 
@@ -66,3 +64,36 @@ export const unidadMedida = {
     nombre: "Unidad (U)",
     ID: 1
 }
+
+export const clienteDelExterior = {
+cliente_id: 9609137,
+nombre: "Cliente del exterior"
+}
+
+export const productoAlojamiento = {
+    productoid: 2994435,
+    nombre: "Alojamiento",
+    codigo: "ALOJAMIENTO",
+    usrcode: "",
+    codigoBarra: "",
+    unidadMedida: unidadMedida,
+    categoria: 1,
+    stockNegativo: false,
+    tasaIva: {
+      ID: 8,
+      nombre: "Iva No Gravado",
+      codigo: "IVANOGRAVADO",
+      id: 8
+    },
+    cuentaContable: {
+      ID: -15,
+      nombre: "Venta de Servicios",
+      codigo: "VENTA_DE_SERVICIOS",
+      id: -15
+    },
+    catFormIVA2002: -1,
+    precioUltCompra: 0,
+    activo: 1,
+    sincronizaStock: 0,
+    tipoOperacionIvaSimple: -1
+  }
