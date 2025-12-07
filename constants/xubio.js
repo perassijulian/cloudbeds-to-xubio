@@ -79,21 +79,28 @@ export const productoAlojamiento = {
     unidadMedida: unidadMedida,
     categoria: 1,
     stockNegativo: false,
-    tasaIva: {
-      ID: 8,
-      nombre: "Iva No Gravado",
-      codigo: "IVANOGRAVADO",
-      id: 8
-    },
-    cuentaContable: {
-      ID: -15,
-      nombre: "Venta de Servicios",
-      codigo: "VENTA_DE_SERVICIOS",
-      id: -15
-    },
+    // tasaIva: {
+    //   ID: 8,
+    //   nombre: "Iva No Gravado",
+    //   codigo: "IVANOGRAVADO",
+    //   id: 8
+    // },
+    // cuentaContable: {
+    //   ID: -15,
+    //   nombre: "Venta de Servicios",
+    //   codigo: "VENTA_DE_SERVICIOS",
+    //   id: -15
+    // },
     catFormIVA2002: -1,
     precioUltCompra: 0,
     activo: 1,
     sincronizaStock: 0,
     tipoOperacionIvaSimple: -1
+  }
+
+export const cuenta = {
+    codigo: "CAJA",
+    nombre: "Caja",
+    id: -13,
+    ID: -13
   }
