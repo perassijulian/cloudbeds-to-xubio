@@ -1,10 +1,24 @@
-# cloudbeds-to-xubio
+- const q = encodeURIComponent('Consumidor Final');
+const res = await xubioFetch(`/clienteBean?nombre=${q}`, { method: 'GET' });
 
-Minimal webhook-to-invoice service bridging Cloudbeds accounting transactions to Xubio invoices.
+cada cliente va a tener su cliente_id en xubio o se va a facturar todo a consumidor final?
 
-## Quick start
+- hay que cargar moneda
+- hay que cargar provincia
+- hay que cargar lista de precios
+- hay que centro de costo
 
-1. Copy `.env.example` to `.env` and fill values.
-2. `npm install`
-3. `npm run migrate` (requires DATABASE_URL)
-4. `npm run start` (requires Vercel CLI for local dev) or deploy to Vercel.
+- fecha de vencimiento importa? hoy o a fin de mes?
+
+-   const cantComprobantesEmitidos = 0;
+  const cantComprobantesCancelados = 0;
+  ?
+
+-   const facturaNoExportacion = true; ?
+
+- precio, iva, importe, total ?
+
+
+
+PARA MI
+- codigo y id de cliente?

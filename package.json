@@ -11,9 +11,9 @@
     "migrate": "bash scripts/migrate.sh"
   },
   "dependencies": {
-    "pg": "^8.11.0",
     "@supabase/supabase-js": "^2.0.0",
-    "p-retry": "^5.0.0"
+    "p-retry": "^5.0.0",
+    "pg": "^8.11.0"
   },
   "devDependencies": {
     "eslint": "^8.0.0"
